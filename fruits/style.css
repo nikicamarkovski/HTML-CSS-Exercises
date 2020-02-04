@@ -1,0 +1,478 @@
+body {
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+.glavencontainer {
+    width:90%;
+    margin:0 auto;
+}
+header {
+    width:100%;
+    background-color:rgb(84, 87, 91);
+    display:flex;
+}
+
+.koda {
+    width:30%;
+    position:relative;
+}
+ .koda img {
+     width:20%;
+     position: absolute;
+     top:15px;
+     right:5px;
+ }
+ .pole {
+     width:70%;
+     position: relative;
+     display:flex;
+     margin-left:60px;
+     padding:10px;
+     
+ }
+ .pole input {
+     padding:5px 50px;;
+     border-radius:10px;
+     background-color:black;
+     color:white;
+     
+ } 
+ .pole img  {
+     width:1.5%;
+     position: absolute;
+     left:30px;
+     top:18px;
+ }
+ .meni ul {
+     display:flex;
+     color:white;
+     list-style-type:none;
+     cursor: pointer;
+     margin-top:5px;
+    
+ }
+ .meni li {
+     padding:5px 15px;
+ }
+ .meni li:hover {
+     background-color:black;
+     transition:0.6s;
+    
+
+ }
+ .vtoro {
+    background-image: url("main-back.jpg") ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+ .tekst {
+     color:white;
+     background-color:rgb(84, 87, 91);
+     display:inline-block;
+     margin:100px;
+     padding:30px;
+     padding-right:500px;
+     opacity: 0.7;
+    
+ }
+ 
+ 
+ .scroll img {
+     position:fixed;
+       right:0px;
+       top:430px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      width:5%;
+      
+ }
+ .scroll img:hover {
+     width:7%;
+     transition:0.4s;
+     cursor: pointer;
+ }
+ .box {
+     width:100%;
+     margin:0 auto;
+     
+ }
+ #diet {
+     color:red;
+     text-align: center;
+ }
+ .box1 {
+     
+ }
+ .glavenbox {
+     display:flex;
+     justify-content: space-around;
+    width:70%;
+    margin:0 auto;
+ }
+ .box1:nth-child(2){
+     border-left:2px  solid red;
+     border-right: 2px solid red;
+      padding-left:70px;
+     padding-right:70px;
+ }
+ .box2 {
+    background-image: url("main-back2.jpg") ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    margin-top:70px;
+    
+ }
+ .naslov  {
+     width:40%;
+     margin:0 auto;
+     padding:100px;
+     color:white;
+     display:flex;
+     flex-direction: column;
+     align-items: flex-end;
+
+     
+     }
+    
+        
+        
+ .kopce {
+  text-align:right;
+ background-color:rgb(224, 35, 35);
+text-align:center;
+padding:10px 50px;
+border-radius: 14px;
+cursor: pointer;
+            
+ }
+ .kopce:hover {
+     width:12%;
+     background-color:pink;
+     transition:1s;
+    
+ }
+.kopce p {
+  margin:0px;
+     }
+     #crveno{
+         color:red;
+     }
+     #crveno2 {
+         padding-left:50px;
+         color:red;
+     }
+      
+     .box3 {
+         width:100%;
+         margin: 0 auto;
+     }
+     .text2 {
+         width:60%;
+         margin:0 auto;
+         display:flex;
+     }
+     .naslov2 {
+         text-align:center;
+         color:red;
+     }
+     .main {
+         width:50%;
+         
+     }
+     .table {
+         width:50%;
+         margin:0 auto;
+     }
+     .glavna {
+         display:flex;
+         list-style-type: none;
+         color:red;
+         border-bottom:1px solid grey;
+         padding:0px;
+         margin:0px;
+         text-align:center;
+         
+     }
+     .glavna li {
+         padding:10px 30px;
+         
+     }
+     .box4 {
+         width:100%;
+         margin:0 auto;
+         background-color:rgb(84, 87, 91);
+         margin-top:70px;
+         
+     }
+     .naslov3 {
+        color:white;
+        text-align:center;
+        padding:30px 0px;
+        
+     }
+     .sliki {
+         width:70%;
+         margin:0 auto;
+     }
+     .sliki {
+         display:flex;
+         justify-content:space-between;
+         padding-top:35px;
+         padding-bottom:35px;
+     }
+     .box5 {
+        width:100%;
+        margin:0 auto;
+        
+     }
+     .naslov4 {
+         color:red;
+         text-align: center;
+     }
+     .sliki2 {
+        display:flex;
+        justify-content:space-between;
+        padding-top:35px;
+        padding-bottom:35px;
+        width:70%;
+        margin:0 auto;
+    }
+    .sliki2 img {
+        width:90%;
+        height:120px;
+        object-fit:cover;
+       
+    }
+    .main3 img{
+        border:8px solid pink;
+        margin:0px;
+        border-radius:20px;
+    }
+    .posledno {
+        background-image: url("contact-back.jpg") ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:500px;
+
+    }
+    .container {
+
+        width:80%;
+        margin:0 auto;
+        bac
+        
+    }
+    .box-50 {
+        float:left;
+        width:50%;
+    
+    }
+    .main-title {
+        margin:0px;
+    }
+    .description {
+        margin:0px;
+    }
+    .company-details {
+        margin-left:30px;
+    }
+    
+    .account-info label{
+       display:flex;
+       flex-direction:column;
+    
+    }
+    .form-input {
+        display:flex;
+        flex-direction: column;
+        width:50%;
+        
+    }
+    .pozicija2 {
+        padding-top:120px;
+        color:white;
+    }
+    
+    .contact-form-details input {
+        border-radius:22px;
+        
+        
+    }
+    .form-title{
+        text-align:center;
+        padding:15px 40px;
+        background-color:red;
+        border:2px solid red;
+        border-radius:20px;
+        color:white;
+        width:50%;
+        position:absolute;
+        left:14%;
+        top:-50px;
+    }
+    .contact-form-wrapper{
+        background-color:white;
+        width:70%;
+        border-radius:20px;
+        margin-top:100px;
+        position:relative;
+    }
+    fieldset {
+       border:none;
+    }
+    .contact-form-details {
+        width:100%;
+        
+    }
+    .account-info{
+       padding-top:50px;
+    }
+    .account-info input {
+        width:100%;
+        height:40px;
+      
+        
+    }
+    .account-info label{
+        padding-top:15px;
+    }
+    .account-info textarea {
+        padding-top:15px;
+       
+        width:100%;
+        border-radius:20px;
+        
+    }
+    .account-action {
+       display:flex;
+        text-align:center;
+    
+    }
+    .btn {
+        color: white;
+        background: red;
+   
+        width:50%;
+        height:40px;
+       margin:0 auto;
+       text-align:center;
+    
+    }
+    #levo {
+        text-align:left;
+    }
+    @media only screen and (max-width: 768px) {
+    
+    .glavencontainer {
+        width:100%;
+    }
+    .meni {
+        display:none;
+    }
+    .pole1  {
+        width:70%;
+        padding:20px ;
+        
+    }
+    .pole1 input {
+        padding:10px 20px; 
+    }
+    .glavenbox {
+        width:100%;
+    }
+    .tekst {
+        color: white;
+        background-color: rgb(84, 87, 91);
+        display: inline-block;
+        margin: 28px;
+        font-size:14px;
+        padding-right: 70px;
+        opacity: 0.7;
+        height:150px;
+    }
+    .koda img {
+        width: 25%;
+        position: absolute;
+        top: 70px;
+        right: 5px;
+    }
+    .koda {
+        width: 20%;
+        position: relative;
+    }
+    .glavenbox {
+        width:100%;
+        display:block;
+        border:none;
+        text-align:center;
+    }
+    .box1:nth-child(2) {
+        border:none;
+    }
+    .glavenbox img {
+        width:40%;
+    }
+    .glavenbox h4 {
+        font-size: 22px;
+    }
+.pole1 img {
+    top:45px;
+    left:38px;
+    width:2%;
+}
+.main {
+    width: 60%;
+    margin: 0 auto ;
+}
+.text2 {
+    width: 100%;
+    
+    display: block;
+    text-align:center;
+}
+.sliki {
+    width: 80%;
+    display:flex;
+    flex-flow: row wrap;
+    margin:0 auto;
+    text-align:center;
+    
+}
+.form-title {
+    text-align: center;
+    padding: 5px 10px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 20px;
+    color: white;
+    width: 50%;
+    position: absolute;
+    left: 40px;
+    top: -35px;
+}
+
+
+.main2 {
+    width:50%;
+}
+ .sliki2 {
+    width: 70%;
+    display:flex;
+    flex-flow: row wrap;
+    margin:0 auto;
+    text-align:center;
+ }
+ .main3 {
+    width:50%;
+ }
+}

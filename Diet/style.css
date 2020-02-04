@@ -1,0 +1,311 @@
+body {
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+header {
+    width:100%;
+    
+}
+.top-container {
+    padding:10px;
+    color:white;
+}
+.main {
+    background-color:rgb(41, 45, 51);
+    display:flex;
+    justify-content:flex-end;
+    padding-right:80px;
+}
+.container80 {
+   width:80%;
+   margin:0 auto;
+}
+.wrapper {
+  
+    justify-content:space-between;
+    display:flex;
+    width:100%;
+    position: relative;
+   
+}
+
+.navmenu1 {
+    list-style-type: none;
+    display:flex;
+}
+.navmenu1 li {
+    padding:10px;
+    padding-right:10px;
+    cursor:pointer;
+}
+.navmenu {
+    
+    list-style-type: none;
+    display:flex;
+    
+}
+#boja {
+    color:palevioletred;
+    padding-right:15px;
+}
+.navmenu li {
+    padding:10px;
+    padding-right:10px;
+    cursor:pointer;
+}
+.navmenu li:hover {
+    color:red;
+}
+.back {
+    background-image: url("images/main-back.jpg") ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:320px;
+}
+.content {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width:100%;
+    height: 100%;
+  
+      
+}
+.text {
+    
+    width:30%;
+    background-color: rgba(255,255,255, 0.2);
+    margin-right:20%;
+    
+}
+.sliki {
+    position:relative;
+    background-color:red;
+    display:flex;
+    width: 60%;
+    margin:0 auto;
+    margin-top:-80px;
+
+}
+.pozicija {
+    width:25%;
+    text-align:center;
+   
+}
+.naslov-top {
+        text-align: center;
+        color:red;
+        
+}
+.naslov-top p {
+    transform: rotate(-90deg);
+}
+
+.drop:hover .dropdown {
+    display: flex;
+}
+
+.naslov {
+    text-align: center;
+    color:pink;
+    
+}
+.naslov p {
+    transform: rotate(-90deg);
+}
+.sliki-2 {
+    
+    width:50%;
+}
+.sliki-2 img{
+width:400px;
+height:400px;
+border-radius:50%;
+object-fit: cover;
+}
+#boja2 {
+    width: 55%;
+    padding: 20px;
+    background: rgb(253,29,29);
+background: linear-gradient(90deg, rgba(253,29,29,1) 23%, rgba(69,252,102,1) 100%);
+}
+#color {
+    color:pink;
+}
+.text-2{
+    font-size: 20px;
+    padding-top: 40px;
+}
+.wrapper2 {
+    width:100%;
+    display: flex;
+    margin-top:60px;
+}
+.bottom {
+    width:15%;
+    margin-right:4px;
+    height: 135px;
+    object-fit: cover;
+}
+.bottom2 {
+    width:20%;
+    height: 135px;
+    object-fit: cover;
+    margin-right:4px;
+
+}
+.bottom img  {
+    width:100%;
+    height: 100%;
+}
+.bottom2 img {
+    width:100%;
+    height: 100%;
+}
+footer {
+    background-color:black;
+    text-align: center;
+    color:white;
+}
+footer p {
+    margin:0px;
+    padding: 10px;
+
+}
+#margina {
+    margin:0px;
+}
+.wrapper3 {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+.dropdown {
+    display:flex;
+    background-color: rgb(227, 230, 234);
+    width: 100%;
+    position: absolute; 
+    align-items: center;
+    display:none;
+}
+.nav1 {
+    list-style-type: none;
+    padding: 0px;
+
+}
+.nav1 li {
+    padding:2px;
+}
+.image-1 {
+    width:20%;
+}
+.image-1 img {
+    width:100%;
+}
+.nav {
+    padding:20px;
+}
+.icon {
+    display:none;
+}
+.fas  {
+    display: none;
+}
+
+@media screen and (max-width: 768px){ 
+    .fas {
+        display:block;
+        font-size: 30px;
+        position:relative;
+        width: 100%;
+        padding:10px;
+    }
+    .dropdown {
+        display:none;
+    }
+    header {
+        display:none;
+    }
+    
+    .slika {
+        display: none;
+    }
+    .wrapper:hover .navmenu  {
+        display:flex;
+        height: 299px;
+    }
+    .navmenu {
+        position: absolute;
+        width:100%;
+        background-color:white;
+        margin:0px;
+        flex-direction: column;
+        display:none;
+        top:100%;
+        padding:0px;
+        
+        
+
+    }
+    
+    .container80 {
+        width:100%;
+    }
+    .sliki {
+        width:100%;
+        background-color: white;
+        display:block;
+        margin:0px;
+    }
+    .pozicija {
+        width:100%;
+        margin-top:5px;
+        background-color: red;
+        
+    }
+    .wrapper3 {
+        display:flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .text-2 {
+        width:100%;
+        text-align: center;
+    }
+    #boja2 {
+        margin:0 auto;
+    }
+    .bottom2 {
+        margin:0px;
+    }
+    .wrapper2 {
+        display:none;
+    }
+
+    .sliki-2 img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+.navmenu1  {
+    display:none;
+}
+
+
+.drop:hover .dropdown {
+    display: none;
+}
+.navmenu i {
+   
+
+}
+
+
+
+}

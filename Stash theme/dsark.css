@@ -1,0 +1,434 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato';
+    color: rgb(214, 214, 214);
+}
+body{
+    background-color: rgb(34, 34, 34);
+}
+.border{
+    height:50px;
+    background-color: #636363;
+    border-bottom: 3px solid white;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+header{
+    background-image: url(http://highgradelab.com/stash/dark-landing-page/wp-content/uploads/sites/61/2017/05/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+header h1{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 30vw;
+    font-weight: 700;
+    font-size: 60px;
+}
+header h1 em{
+    font-weight: 500;
+
+}
+form{
+    position: absolute;
+    top:80px;
+    right: 100px; 
+    background: rgb(54, 54, 54);
+    width: 20vw;
+    border-radius: 20px;
+}
+.form-heading{
+    text-align: center;
+    display: flex;
+}
+.form-heading h2{
+    font-size: 35px;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+fieldset{
+    border: none;
+    margin: 20px auto;
+
+}
+fieldset input{
+    display: block;
+    padding: 10px;
+    margin:5px auto;
+    border: none;
+    width: 55%;
+}
+fieldset #submit{
+    background-color: rgb(39, 39, 155);
+    width: 55%;
+    padding: 10px auto;
+    margin:5px auto;
+    border: none;
+}
+.scd{
+    width: 50%;
+    
+}
+.scd p,.scd a{
+    font-size: 16px;
+    font-weight: bold;
+}
+.wraper{
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.wraper h2{
+    padding: 60px;
+    font-size: 30px;
+    width: 80%;
+    margin: 0 auto
+}
+.items-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    margin: 0 30px;
+}
+.items{
+    margin: 20px;
+    padding: 40px;
+}
+.items i{
+    color:rgb(39, 39, 155);
+    margin: 10px;
+}
+.items p{
+    font-weight:700;
+}
+.items-content-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding: 40px 0;
+}
+.items-content-second iframe{
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.small-border{
+    width: 80%;
+    height: 2px;
+    background-color: rgb(34, 34, 34);
+}
+.bg{
+    background-image: url("http://highgradelab.com/stash/dark-landing-page/wp-content/uploads/sites/61/2017/05/quote-bg.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.items-content-third{
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 150px;
+    width: 70%;
+}
+.items-content-third h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    
+}
+.items-content-four{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px auto;
+}
+.items-heading p{
+    font-weight: 700;
+    width: 80%;
+    margin: 0 auto;
+}
+   
+.column{
+    border: 1px solid  rgb(34, 34, 34);
+    margin: 30px;
+    flex-basis: 20%;
+}
+.column-header{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.column-header h4{
+    font-size: 25px;
+}
+.column-header h1{
+    font-size: 60px;
+}
+.column-header p{
+    font-size: 20px;
+}
+.column-body{
+    margin: 40px;
+}
+.column-body p{
+    margin: 20px auto;
+    font-weight: 700;
+}
+.column-body i{
+    margin: 10px;
+}
+.fa-check{
+    color:rgb(39, 39, 155);
+}
+.column-body input{
+    width: 80%;
+    background-color: transparent;
+    padding: 10px 0;
+}
+#prefer{
+    background-image: url(http://highgradelab.com/stash/dark-landing-page/wp-content/uploads/sites/61/2017/05/pricing-bg.jpg?id=78);
+    background-position: center;
+    background-size: cover;
+}
+.cover{
+    background-image: url(http://highgradelab.com/stash/dark-landing-page/wp-content/uploads/sites/61/2017/05/cta-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+}
+.items-content-five{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.items-content-five h1{
+    width: 30vw;
+    font-weight: 700;
+    font-size: 50px;
+}
+header h1 em{
+    font-weight: 500;
+
+}
+.items-content-five p{
+    margin: 40px auto;
+    font-weight: bold;
+    font-size: 20px;
+    width: 30vw;
+}
+.items-content-five input{
+    width: 40%;
+    background-color: transparent;
+    padding: 10px 0;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.links{
+    display: flex;
+    list-style: none;
+}
+.links li{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 30px;
+    font-weight: bold;
+}
+.link{
+    width: 20vw;
+    height: 10vh;
+}
+.link img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.tounge{
+    background-color: rgb(39, 39, 155);
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    border-radius: 40px;
+    text-align: center;
+}
+.tounge a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    margin: 5px;
+}
+.tounge em{
+    margin: 0 10px;
+}
+.tounge i{
+    margin: 20px;
+    margin-left: 0;
+}
+footer{
+    text-align: start;
+    margin-left: 40px;
+}
+footer p {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px;
+
+}
+
+.border p,.fonts{
+    display:none;
+
+}
+
+
+@media screen and (min-width:300px) and (max-width:767px){
+
+    .tounge{
+        display: none;
+    }
+    .border{
+        border: none;
+    }
+    .border{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .border p{
+        display: block;
+       color: rgb(39, 39, 155);
+       text-transform: uppercase;
+       margin-left:20px; 
+
+    }
+    .border .fonts{
+        display: inline-block;
+    }
+    .fonts i{
+        margin: 10px;
+    }
+    .container{
+        width: 100vw;
+    }
+    header h1{
+        width: 80vw;
+        font-size: 35px;
+        top: 60px;
+    }
+    form{
+        width: 80vw;
+        top: 220px;
+        left:10vw;
+    }
+    .form-heading h2{
+        font-size: 20px;
+        width: 90%;
+    }
+    .wraper h2{
+        width: 80vw;
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .items-content{
+        flex-flow: column;
+        margin:20px auto;
+    }
+    .items{
+        margin: 10px;
+        padding: 10px;
+    }
+    .items h3{
+        font-size: 18px;
+    }
+    .items p{
+        margin-left: 40px;
+        font-size: 14px;
+    }
+    .items-content-second{
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .items-content-second iframe{
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .items-content-second .items h2{
+        margin: 20px auto;
+    }
+    .items-content-second .items p{
+        padding: 0;
+        margin: 10px 20px;
+    }
+    .items-content-third{
+        top: 50px;
+        left: 50px;
+    }
+    .items-content-third h1{
+        font-size: 30px;
+    }
+    .items-heading p{
+        margin: 0 auto;
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    .items-content-four{
+        flex-flow: column;
+    }
+    .items-content-five h1{
+        top: 50px;
+        left: 10px;
+        font-size: 25px;
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .items-content-five p{
+        font-size: 14px;
+        width: 80vw;
+    }
+    .cover{
+        height: 500px;
+    }
+    .row{
+        margin: 0;
+        display: flex;
+        flex-flow: column;
+    }
+    .links{
+       flex-flow: column;
+    }
+    .links li{
+        margin: 10px;
+        font-size: 12px;
+    }
+    footer p{
+        font-size: 12px;
+    }
+    
+
+
+
+}

@@ -1,0 +1,443 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #074c69;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+label{
+    font-size: 30px;
+    display: none;
+}
+
+#toggle{
+    display: none;
+}
+
+
+.nav{
+    background-color: #09729e;
+    padding: 20px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.nav .container{
+    color: white;
+
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+
+.li:hover{
+    color: #02c4a3;
+}
+
+.code{
+    background-color: #02c4a3;
+}
+
+.code:hover{
+    border: solid .5px white;
+}
+
+.code a{
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-people{
+    display: none;
+    position: absolute;
+    color: #09729e;
+    background-color: white;
+    position: absolute;
+    text-transform: capitalize;
+}
+
+.people:hover .dropdown-people{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tim:hover{
+    color: #02c4a3;
+}
+
+.dropdown-tim{
+    display: none;
+}
+
+.tim:hover .dropdown-tim{
+    display: flex;
+}
+
+.dropdown-tim{
+    position: absolute;
+    background-color: #09729e;
+    margin-right: 50px;
+}
+
+.dropdown-tim img{
+    width: 100px;
+    height: 130px;
+    border: solid 10px #09729e;
+}
+
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+
+.logo{
+    position: absolute;
+    margin-top: -80px;
+    padding: 15px;
+    background-color: #09729e;
+    border-radius: 100%;
+    height: 130px;
+    width: 130px;
+}
+.fixed{
+    position: fixed;
+    right: 0;
+    top: 200px;
+    background-color: #02c4a3;
+    border-radius: 10px;
+   
+}
+.fixed img{
+    height: 85px;
+    width: 85px;
+}
+.dropdown {
+    display:none;
+    background-color: #02c4a3;
+    
+}
+.fixed:hover .dropdown{
+    display: flex;
+    flex-direction: row;
+    transition:0.4s;
+    
+}
+.main-container {
+    width:100%;
+    background-color:black;
+}
+.back-image {
+    background-image: url(images/main-back.jpg);
+    background-size: cover;
+    padding-top: 200px;
+}
+.main-text {
+    color:white;
+    font-size:30px;
+}
+.main-container2 {
+    width:100%;
+    display:flex;
+}
+.box-50 {
+    width:50%;
+    color:white;
+    margin-top:110px;
+    
+    
+}
+.icon {
+   display:grid;
+   grid-template-columns:repeat(6 , 1fr);
+   grid-gap:8px;
+
+
+}
+.icon1 {
+    background-color: #074c69;
+    text-align:center;
+    grid-column-start: 1;
+    grid-column-end: 7;
+  
+}
+.icon1 img {
+width:20%;
+padding-bottom:30px;
+padding-top:30px;
+}
+.icon1 p {
+    padding-bottom:20px;
+}
+.icon2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.icon3 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+.wrapper-1 {
+    background-color: #074c69;
+    width:100%;
+    text-align:center;
+    
+  
+}
+
+.icon1:hover{
+    background: #02c4a3;;
+    background: linear-gradient(to right, #074c69, #02c4a3);
+}
+.wrapper-1 img{
+    width:40%;
+
+}
+.wrapper-1 p {
+    padding-top:10px;
+}
+.comment {
+    width:80%;
+    margin:0 auto;
+    text-align:center;
+    background-color:#09729e;
+    padding:15px;
+    font-size:15px;
+}
+form {
+    background-color:rgb(212, 212, 212);
+    width:70%;
+    margin:0 auto;
+    display:block;
+    text-align:center;
+    padding: 15px 0 15px 0;
+   
+}
+form input {
+    padding: 10px 20px 10px 0;
+    margin-bottom:10px;
+    width:80%;
+}
+.comment input, button{
+    
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: px;
+    border: none;
+}
+.comment-input{
+    padding-bottom:45px;
+}
+.button {
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #02c4a3;;
+    background: (to right, #074c69, #02c4a3);
+    background: linear-gradient(to right, #074c69, #02c4a3);
+}
+.bottom-contaier {
+    display:flex;
+    width:100%;
+    margin-bottom: 60px;
+}
+.w-text {
+    font-size:90px;
+    text-align:end;
+    margin-right:30px;
+}
+.tabela {
+   text-align:center;
+   width:80%;
+  
+}
+
+    
+    
+
+
+.bottom div:nth-child(even) {
+  background-color: #09729e;
+}
+.bottom div:nth-child(odd) {
+    background-color: #074c69;
+}
+
+  
+  
+.bottom div {
+    padding:20px;
+}
+footer {
+    border-top: dashed 1px #074c69;
+    color:white;
+    text-align: center;
+    
+}
+footer h5 {
+    padding-top:10px;
+}
+.bottom {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    text-align:center;
+    
+}
+.e {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+@media screen and (max-width: 768px){
+
+    .container{
+        width: 100%;
+    }
+
+    .header{
+        display: none;
+    }
+
+    .logo{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 20px;
+        margin-left: 15px;
+
+    }
+
+    .fixed{
+        display: none;
+    }
+
+
+    .navigation ul li{
+        display: block;
+        width: 100%;
+    }
+
+    .navigation:first-child, i{
+        display: inline-block;
+    }
+
+    .nav{
+        text-align: end;
+    }
+
+    label{
+        display: block;
+        cursor: pointer;
+        color: white;
+    }
+
+    #toggle:checked + .navigation{
+        display: block;
+    }
+
+    .container ul{
+        display: none;
+    }
+
+    .main-text{
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-top: 0;
+        text-align: center;
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    .main-text h1, h3{
+        font-size: 20px;
+     
+    }
+    .back-image {
+        padding-top:70px;
+    }
+    .icon {
+        width:100%;
+        display:flex;
+        flex-direction: column;
+
+    }
+    .icon1 img {
+        width:30%;
+    }
+    .main-container2 {
+        width:90%;
+        margin:0 auto;
+        display:flex;
+        flex-direction: column;
+    }
+    .comment {
+        width:100%;
+        font-size: 10px;
+
+    }
+    form {
+        width:90%;
+    }
+    form input {
+        width:90%;
+    }
+    .comment-input {
+        padding-bottom: 80px; 
+    }
+    .button {
+        width:90%;
+    }
+    .box-50 {
+        width:100%;
+    }
+    .icon2 {
+        display:flex;
+        flex-direction: column;
+        padding-top:20px;
+    }
+    .icon2 img {
+        width:50%;
+        padding:10px;
+    }
+    #pozicija {
+        padding-left:0px;
+    }
+  
+   
+   .w-text {
+    transform: rotate(-90deg);
+    font-size:40px;
+    text-align:center;
+   
+}
+.tabela {
+    width:30%;
+    
+}
+}
